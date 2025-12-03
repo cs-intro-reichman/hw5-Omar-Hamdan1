@@ -106,7 +106,7 @@ public class Wordle {
             String guess = "";
             boolean valid = false;
 
-            // Loop until a valid guess is given
+            // Loop until a valid guess is give
             while (!valid) {
                 System.out.print("Enter your guess (5-letter word): ");
                 guess = inp.readString();
