@@ -18,7 +18,7 @@ public class Wordle {
         return words;
     }
 
-    // Choose a random secret word from the dictionary.
+    // Choose a random secret word from the dictionary
     public static String chooseSecretWord(String[] dict) {
         int random = (int)(Math.random() * dict.length);
         return dict[random];
